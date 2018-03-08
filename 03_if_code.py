@@ -22,10 +22,19 @@ else :
     print("kid")
 
 
-#if ÅĞ¶ÏÌõ¼ş¼òĞ´
-#Ö»ÒªÅĞ¶ÏÌõ¼şÊÇ·ÇÁãÊıÖµ£¬·ÇÁã×Ö·û´®£¬·Ç¿ÕlistµÈ£¬¾ùÅĞ¶ÏÎªtrue
+#if åˆ¤æ–­æ¡ä»¶ç®€å†™
+#åªè¦åˆ¤æ–­æ¡ä»¶æ˜¯éé›¶æ•°å€¼ï¼Œéé›¶å­—ç¬¦ä¸²ï¼Œéç©ºlistç­‰ï¼Œå‡åˆ¤æ–­ä¸ºtrue
 x = 1
 if x:
     print("True")
 else:
     print("False")
+
+
+#inputæ–¹æ³•çš„ä½¿ç”¨
+birth = int(input("birth day:"))
+
+if birth >=2000:
+    print("00å")
+else:
+    print("00å‰")
