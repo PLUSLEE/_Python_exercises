@@ -28,8 +28,8 @@ showAnswer(classmate)
 classmate[0] = "liuzhu"
 showAnswer(classmate)
 
-# for i in classmate:
-#     print()
+for i in classmate:
+    print(i)
 
 #-----------------------------------------
 #tuple的使用
