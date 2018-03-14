@@ -17,3 +17,5 @@ def move(n,a,b,c):
         move(n-1,b,a,c)
 
 print(move(3,'A','B','C'))
+
+#把n-1个盘子看做一个盘子
